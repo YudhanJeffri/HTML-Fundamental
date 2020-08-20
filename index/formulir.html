@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <img class="wave" src="wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="asset/undraw_organize_resume.svg">
+		</div>
+		<div class="login-content">
+			<form action="formulir.html">
+				<h2 class="title">Latihan Formulir</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input" onfocus="this.placeholder = 'Contoh : Yudhan Jeffri'" onblur="this.placeholder = ''">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+				</div>
+				<div class="input-div date">
+					<div class="i">
+						<i style='font-size:24px' class='far'>&#xf133;</i>
+					</div>
+					<div class="div">
+					<input type="date" size="30" style="border-style: none;" class="input" >
+				</div>
+				</div>
+				<div class="input-div gender">
+					<div class="i"> 
+						 <i style="font-size:24px" class="fa">&#xf224;</i>
+					</div>
+					<div class="div">
+						<label class="radio">
+							<input type="radio" name="gender" value="male">
+							male
+							<span></span>
+						</label>
+						<label class="radio">
+							<input type="radio" name="gender" value="female">
+							female
+							<span></span>
+						</label>
+					</div>
+				 </div>
+				 <div class="input-div number">
+           		   <div class="i">
+           		   		<i class="fa fa-phone"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<input type="number" placeholder="Phone Number" class="i">
+           		   </div>
+				   </div>
+				   <div class="input-div city">
+					<div class="i">
+							<i class="fa fa-city"></i>
+					</div>
+					<div class="dropdown">
+						<select name="Prodi">
+							<optgroup>
+								<option value="if" selected="selected">Purwokerto</option>
+								<option value="ik">Medan</option>
+								<option value="ti">Malang</option>
+								<option value="si">Surabaya</option>
+							</optgroup>
+						</select>
+						</div>
+					</div>
+					<div>
+						<div class="i">
+								<i class="fas fa-address"></i>
+						</div>
+						<div class="div">
+							<textarea cols="50" rows="3" placeholder="Your Address"></textarea>
+						</div>
+					 </div>
+					 <div>
+						
+						<i class="fa fa-tasks"></i>
+						<label>Hobby</label>
+						<div>
+						<input type="checkbox" name="hobi" value="baca_buku">Membaca buku 
+		<input type="checkbox" name="hobi" value="menulis" checked="checked">Menulis
+		<input type="checkbox" name="hobi" value="Memancing">Memancing
+	</div>
+</div>
+<div>
+	<div>
+			<i class="fas fa-hamburger"></i>
+			<label>Favorite Food</label>
+	</div>
+	<div>
+		<form>
+			<input type="text" list="makanan" placeholder="Favorite Food">
+		</form>
+		<datalist id="makanan">
+			<option value="Mendoan" selected="selected">Mendoan</option>
+			<option value="Bakwan">Bakwan</option>
+			<option value="Sate">Sate</option>
+			<option value="Rendang">Rendang</option>
+		</datalist>
+	</div>
+	<div class="i">
+		<div>
+			<input type="reset" value="Reset">
+		</div>
+		<div>
+			<input type="submit" value="Submit">
+		</div>
+	 </div>
+	 <div>
+		 <div>
+			 <form action="index.html">
+		<input type="submit" class="btn" value="Next Page">
+	</form>
+</div>
+	 </div>
+ </div>
+						
+ 
+			  </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

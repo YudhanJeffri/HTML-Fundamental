@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #fff;
+    color: #c1c1c1;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("mybanner.png");
+    background-size: cover;
+}
+.container{
+    padding: 2rem 4rem;
+}
+.navbar{
+    display: flex;
+    color: #ff3c88;
+}
+.logo{
+    flex: 2;
+}
+.menu{
+    flex: 1;
+    color: #000;
+    font-size: 15px;
+}
+.menu>ul{
+    display: flex;
+    list-style: none;
+}
+.menu>li{
+    padding: 5rem 1rem;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu .btn{
+    padding: 0.5rem;
+    border-radius: 7px;
+    background: rgba(255, 101, 132, 0.77);
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.main-content{
+    display: flex;
+}
+.text{
+    flex: 1;
+    padding-top: 7rem;
+}
+.banner{
+    flex: 1;
+    padding-top: 5rem;
+}
+.banner mybanner{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 4rem;
+    color: #000;
+    font-weight: medium;
+}
+.btn-rounded{
+    padding: 0.7rem;
+    background-color: #FF6584;
+    border-radius: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#link{
+    color: #ff3c88;
+    text-decoration: underline;
+    border: none;
+    margin-left: 1rem;
+    font-size: 15px;
+}
+.div-rounded{
+    margin-top: 90px;
+}
+li{
+    padding-left: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}

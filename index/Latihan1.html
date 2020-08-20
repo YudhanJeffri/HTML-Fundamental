@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>latihan 1</title>
+</head>
+<body>
+	<h1 id="#top">Contoh-contoh link</h1>
+	<ol>
+		<li>Eksternal link</li>
+		<p>Contoh nya seperti ini
+			<a href="https://www.facebook.com" target="_self">Facebook</a></p>
+			<p>Bisa juga untuk menghubungi WA
+				<a href="https://api.whatsapp.com/send?phone=6285745400095&text=Hi!" target="_blank">Chat dengan Saya</a></p>
+				<li>Link dalam satu halaman</li>
+				<p><a href="#toDown">Ke Page Paling bawah</a></p>
+				<li>Link ke Frame</li>
+				<p>Klik <a href="https://www.detik.com" target="myframe">Disini</a></p>
+				<iframe src="myframe" width="400" height="400"></iframe>
+				<br><br>
+				<li>Link Email</li>
+				<p>dapat mengirim email</p>
+				<a href="mailto:yudhanjeffri168@gmail.com"
+				title="kirim email ke Admin">Hubungi Saya</a>
+				<h5>Disini adalah bagian bawah</h5>
+				<p>Anchor dalam bahasa indonesia artinya jangkar.<br>Saya yakin kamu pasti pernah meilhat jangkar.<br> Fungsi jangkar untuk menahan kapal agar tidak hanyut.<br> Tapi dalam HTML, fungsinya untuk membuat link yang bisa membuat link yang bisa membawa kita meluncur ke tujuan jangkar itu.</p>
+				<p id="toDown">toDown is here Guys</p>
+				<p><a href="#top">Back to top</a></p>
+	</ol>
+	<div align="center">
+		<marquee width = "150" >
+			<img src="1.png" height="100">
+			<img src="2.png" height="100">
+			<img src="3.png" height="100">
+		</marquee>
+	</div>
+	<div align="left">
+		<marquee width = "150" direction="left">
+			<font size="30">Go to the left</font>
+		</marquee>
+		<br>
+		<marquee width = "150" direction="right">
+			<font size="30">Go to the right</font>
+		</marquee>
+	</div>
+	<form>
+		<h4>Textarea biasa</h4>
+		<textarea></textarea>
+		<h4>Textarae dengan atribut name="komentar"</h4>
+		<textarea name="komentar">Silahkan isi komentar Anda</textarea>
+		<h4>Textarea dengan lebar 50 dan tinggi 10</h4>
+		<textarea cols="50" rows="10">SIlahkan isi komentar Anda</textarea>
+		<h4>Textarea dengan batas jumlah karakter 20</h4>
+		<textarea maxlength="20" placeholder="hanya 20 kata"></textarea>
+		<h4>Textarea dengan mode disabled</h4>
+		<textarea disabled="disabled">Silahkan isi komentar Anda</textarea>
+	</form>
+	<form>
+		<h4>Username</h4>
+		<input type="text" value="Masukkan username" size="30"><br>
+		<h4>Password</h4>
+		<input type="password" value="password" maxlength="8" size="30">
+	</form>
+	<form>
+		<h4>Jenjang Pendidikan Terakhir:</h4>
+		<input type="radio" name="hobi" value="S1" checked="checked">S1 <br>
+		<input type="radio" name="hobi" value="sma" checked="checked">SMA <br>
+		<input type="radio" name="hobi" value="smp" checked="checked">SMP <br>
+		<input type="radio" name="hobi" value="SD" checked="checked">SD <br>
+		<input type="radio" name="hobi" value="tidakada" disabled="disabled">Tidak ada
+	</form>
+	<form>
+		<h4>Hobi Anda adalah:</h4>
+		<input type="checkbox" name="hobi" value="baca_buku" checked="checked">Membaca buku <br>
+		<input type="checkbox" name="hobi" value="musik" checked="checked">Bermain alat musik <br>
+		<input type="checkbox" name="hobi" value="masak" checked="checked">Memasak<br>
+		<input type="checkbox" name="hobi" value="foto" checked="checked">Fotografi <br>
+		<input type="checkbox" name="hobi" value="lain" checked="checked">Lain-lain<br>
+	</form>
+	<form>
+		Pilih program studi dan tahun angkatan Anda: <br>
+		<select name="Prodi">
+			<optgroup label="Fakultas Informatika">
+				<option value="if" selected="selected">Teknik Informatika</option>
+				<option value="ik">Ilmu Komputer</option>
+			</optgroup>
+			<optgroup label="Fakultas Industri">
+				<option value="ti">Teknik Industri</option>
+				<option value="si">Sistem Informasi</option>
+			</optgroup>
+		</select>
+		<select name="tahun">
+			<option>2020</option>
+			<option selected="select">2021</option>
+			<option>2020</option>
+		</select>
+	</form>
+	<form>
+		<label>Masukan Nama Negara :</label>
+		<input type="text" list="negara">
+	</form>
+	<datalist id="negara">
+		<option value="Brunei">Brunei</option>
+		<option value="Belanda">Belanda</option>
+		<option value="Filipina">Filipina</option>
+		<option value="Firlandia">Firlandia</option>
+		<option value="Indonesia">Indonesia</option>
+		<option value="India">India</option>
+		<option value="Malaysia">Malaysia</option>
+		<option value="Myanmar">Myanmar</option>
+	</datalist>
+	<form>
+		<label for="avatar">Pilih Foto Profile mu :</label>
+		<input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg">
+	</form>
+	<form>
+		<h4>Masukkan username dan password</h4>
+		Username <br>
+		<input type="text"> <br>
+		Password <br>
+		<input type="password"> <br> <br>
+		<button type="submit">Login</button>
+		<button type="reset">Reset</button>
+	</form>
+</body>
+</html>
