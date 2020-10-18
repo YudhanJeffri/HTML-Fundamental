@@ -1,6 +1,5 @@
 # :octocat: HTML-Fundamental
 
-This Repository is about my journey Learning HTML and CSS
 
 # Created with visual studio code
 
